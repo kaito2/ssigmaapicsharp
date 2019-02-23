@@ -25,25 +25,27 @@ namespace Ssigmaapi.Type {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiFzc2lnbWFhcGkvdHlwZS91c2VyYWN0aXZpdHkucHJvdG8SDnNzaWdtYWFw",
-            "aS50eXBlIq0BCgxVc2VyQWN0aXZpdHkSFwoPc3RhcnRfdGltZXN0YW1wGAEg",
+            "aS50eXBlIo0CCgxVc2VyQWN0aXZpdHkSFwoPc3RhcnRfdGltZXN0YW1wGAEg",
             "ASgDEhUKDWVuZF90aW1lc3RhbXAYAiABKAMSNQoOa2V5Ym9hcmRfaW5wdXQY",
             "AyABKAsyHS5zc2lnbWFhcGkudHlwZS5LZXlib2FyZElucHV0EjYKC3dpbmRv",
             "d19saXN0GAQgAygLMiEuc3NpZ21hYXBpLnR5cGUuQXBwbGljYXRpb25XaW5k",
-            "b3ciJQoNS2V5Ym9hcmRJbnB1dBIUCgxzdHJva2VfY291bnQYASABKAMiHQoF",
-            "UG9pbnQSCQoBeBgBIAEoAxIJCgF5GAIgASgDIs0CChFBcHBsaWNhdGlvbldp",
-            "bmRvdxImCgdsZWZ0dG9wGAEgASgLMhUuc3NpZ21hYXBpLnR5cGUuUG9pbnQS",
-            "DgoGaGVpZ2h0GAIgASgDEg0KBXdpZHRoGAMgASgDEg0KBXRpdGxlGAQgASgJ",
-            "EhQKDHByb2dyYW1fbmFtZRgFIAEoCRITCgtkZXNjcmlwdGlvbhgGIAEoCRIP",
-            "Cgdjb21wYW55GAcgASgJEhUKDWlzX2ZvcmVncm91bmQYCCABKAgSQwoMd2lu",
-            "ZG93X3N0YXRlGAkgASgOMi0uc3NpZ21hYXBpLnR5cGUuQXBwbGljYXRpb25X",
-            "aW5kb3cuV2luZG93U3RhdGUSEQoJdGltZXN0YW1wGAogASgDIjcKC1dpbmRv",
-            "d1N0YXRlEgoKBk5PUk1BTBAAEg0KCU1BWElNSVpFRBABEg0KCU1JTklNSVpF",
-            "RBACQj5aPGdpdGh1Yi5jb20va2FpdG8yL3NzaWdtYWFwaWdvL3R5cGUvdXNl",
-            "cmFjdGl2aXR5O3VzZXJhY3Rpdml0eWIGcHJvdG8z"));
+            "b3cSOgoKdXNlcl9zdGF0ZRgFIAEoDjImLnNzaWdtYWFwaS50eXBlLlVzZXJB",
+            "Y3Rpdml0eS5Vc2VyU3RhdGUiIgoJVXNlclN0YXRlEgsKB1dPUktJTkcQABII",
+            "CgRBV0FZEAEiJQoNS2V5Ym9hcmRJbnB1dBIUCgxzdHJva2VfY291bnQYASAB",
+            "KAMiHQoFUG9pbnQSCQoBeBgBIAEoAxIJCgF5GAIgASgDIs0CChFBcHBsaWNh",
+            "dGlvbldpbmRvdxImCgdsZWZ0dG9wGAEgASgLMhUuc3NpZ21hYXBpLnR5cGUu",
+            "UG9pbnQSDgoGaGVpZ2h0GAIgASgDEg0KBXdpZHRoGAMgASgDEg0KBXRpdGxl",
+            "GAQgASgJEhQKDHByb2dyYW1fbmFtZRgFIAEoCRITCgtkZXNjcmlwdGlvbhgG",
+            "IAEoCRIPCgdjb21wYW55GAcgASgJEhUKDWlzX2ZvcmVncm91bmQYCCABKAgS",
+            "QwoMd2luZG93X3N0YXRlGAkgASgOMi0uc3NpZ21hYXBpLnR5cGUuQXBwbGlj",
+            "YXRpb25XaW5kb3cuV2luZG93U3RhdGUSEQoJdGltZXN0YW1wGAogASgDIjcK",
+            "C1dpbmRvd1N0YXRlEgoKBk5PUk1BTBAAEg0KCU1BWElNSVpFRBABEg0KCU1J",
+            "TklNSVpFRBACQj5aPGdpdGh1Yi5jb20va2FpdG8yL3NzaWdtYWFwaWdvL3R5",
+            "cGUvdXNlcmFjdGl2aXR5O3VzZXJhY3Rpdml0eWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Ssigmaapi.Type.UserActivity), global::Ssigmaapi.Type.UserActivity.Parser, new[]{ "StartTimestamp", "EndTimestamp", "KeyboardInput", "WindowList" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Ssigmaapi.Type.UserActivity), global::Ssigmaapi.Type.UserActivity.Parser, new[]{ "StartTimestamp", "EndTimestamp", "KeyboardInput", "WindowList", "UserState" }, null, new[]{ typeof(global::Ssigmaapi.Type.UserActivity.Types.UserState) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Ssigmaapi.Type.KeyboardInput), global::Ssigmaapi.Type.KeyboardInput.Parser, new[]{ "StrokeCount" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Ssigmaapi.Type.Point), global::Ssigmaapi.Type.Point.Parser, new[]{ "X", "Y" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Ssigmaapi.Type.ApplicationWindow), global::Ssigmaapi.Type.ApplicationWindow.Parser, new[]{ "Lefttop", "Height", "Width", "Title", "ProgramName", "Description", "Company", "IsForeground", "WindowState", "Timestamp" }, null, new[]{ typeof(global::Ssigmaapi.Type.ApplicationWindow.Types.WindowState) }, null)
@@ -82,6 +84,7 @@ namespace Ssigmaapi.Type {
       endTimestamp_ = other.endTimestamp_;
       keyboardInput_ = other.keyboardInput_ != null ? other.keyboardInput_.Clone() : null;
       windowList_ = other.windowList_.Clone();
+      userState_ = other.userState_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -139,6 +142,17 @@ namespace Ssigmaapi.Type {
       get { return windowList_; }
     }
 
+    /// <summary>Field number for the "user_state" field.</summary>
+    public const int UserStateFieldNumber = 5;
+    private global::Ssigmaapi.Type.UserActivity.Types.UserState userState_ = 0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Ssigmaapi.Type.UserActivity.Types.UserState UserState {
+      get { return userState_; }
+      set {
+        userState_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UserActivity);
@@ -156,6 +170,7 @@ namespace Ssigmaapi.Type {
       if (EndTimestamp != other.EndTimestamp) return false;
       if (!object.Equals(KeyboardInput, other.KeyboardInput)) return false;
       if(!windowList_.Equals(other.windowList_)) return false;
+      if (UserState != other.UserState) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -166,6 +181,7 @@ namespace Ssigmaapi.Type {
       if (EndTimestamp != 0L) hash ^= EndTimestamp.GetHashCode();
       if (keyboardInput_ != null) hash ^= KeyboardInput.GetHashCode();
       hash ^= windowList_.GetHashCode();
+      if (UserState != 0) hash ^= UserState.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -192,6 +208,10 @@ namespace Ssigmaapi.Type {
         output.WriteMessage(KeyboardInput);
       }
       windowList_.WriteTo(output, _repeated_windowList_codec);
+      if (UserState != 0) {
+        output.WriteRawTag(40);
+        output.WriteEnum((int) UserState);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -210,6 +230,9 @@ namespace Ssigmaapi.Type {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(KeyboardInput);
       }
       size += windowList_.CalculateSize(_repeated_windowList_codec);
+      if (UserState != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) UserState);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -234,6 +257,9 @@ namespace Ssigmaapi.Type {
         KeyboardInput.MergeFrom(other.KeyboardInput);
       }
       windowList_.Add(other.windowList_);
+      if (other.UserState != 0) {
+        UserState = other.UserState;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -264,9 +290,25 @@ namespace Ssigmaapi.Type {
             windowList_.AddEntriesFrom(input, _repeated_windowList_codec);
             break;
           }
+          case 40: {
+            userState_ = (global::Ssigmaapi.Type.UserActivity.Types.UserState) input.ReadEnum();
+            break;
+          }
         }
       }
     }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the UserActivity message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public enum UserState {
+        [pbr::OriginalName("WORKING")] Working = 0,
+        [pbr::OriginalName("AWAY")] Away = 1,
+      }
+
+    }
+    #endregion
 
   }
 
@@ -636,7 +678,7 @@ namespace Ssigmaapi.Type {
     public const int TitleFieldNumber = 4;
     private string title_ = "";
     /// <summary>
-    /// アプリケーションタイトル
+    /// ウィンドウタイトル
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Title {
