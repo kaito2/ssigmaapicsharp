@@ -105,7 +105,7 @@ namespace Ssigmaapi.Type {
     public const int StartTimestampFieldNumber = 1;
     private int startTimestamp_;
     /// <summary>
-    /// milisecond
+    /// second
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int StartTimestamp {
@@ -119,7 +119,7 @@ namespace Ssigmaapi.Type {
     public const int EndTimestampFieldNumber = 2;
     private int endTimestamp_;
     /// <summary>
-    /// milisecond
+    /// second
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int EndTimestamp {
@@ -1037,7 +1037,7 @@ namespace Ssigmaapi.Type {
     public const int TimestampFieldNumber = 10;
     private int timestamp_;
     /// <summary>
-    /// milisecond
+    /// second
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Timestamp {
