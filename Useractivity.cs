@@ -26,24 +26,24 @@ namespace Ssigmaapi.Type {
           string.Concat(
             "CiFzc2lnbWFhcGkvdHlwZS91c2VyYWN0aXZpdHkucHJvdG8SDnNzaWdtYWFw",
             "aS50eXBlIuACCgxVc2VyQWN0aXZpdHkSFwoPc3RhcnRfdGltZXN0YW1wGAEg",
-            "ASgDEhUKDWVuZF90aW1lc3RhbXAYAiABKAMSNQoOa2V5Ym9hcmRfaW5wdXQY",
+            "ASgFEhUKDWVuZF90aW1lc3RhbXAYAiABKAUSNQoOa2V5Ym9hcmRfaW5wdXQY",
             "AyABKAsyHS5zc2lnbWFhcGkudHlwZS5LZXlib2FyZElucHV0EjYKC3dpbmRv",
             "d19saXN0GAQgAygLMiEuc3NpZ21hYXBpLnR5cGUuQXBwbGljYXRpb25XaW5k",
             "b3cSOgoKdXNlcl9zdGF0ZRgFIAEoDjImLnNzaWdtYWFwaS50eXBlLlVzZXJB",
             "Y3Rpdml0eS5Vc2VyU3RhdGUSLwoLbW91c2VfaW5wdXQYBiABKAsyGi5zc2ln",
             "bWFhcGkudHlwZS5Nb3VzZUlucHV0EiAKGHN3aXRjaF9hcHBsaWNhdGlvbl9j",
-            "b3VudBgHIAEoAyIiCglVc2VyU3RhdGUSCwoHV09SS0lORxAAEggKBEFXQVkQ",
-            "ASIlCg1LZXlib2FyZElucHV0EhQKDHN0cm9rZV9jb3VudBgBIAEoAyJyCgpN",
-            "b3VzZUlucHV0EhMKC2NsaWNrX2NvdW50GAEgASgDEhgKEGxlZnRfY2xpY2tf",
-            "Y291bnQYAiABKAMSGgoSbWlkZGxlX2NsaWNrX2NvdW50GAMgASgDEhkKEXJp",
-            "Z2h0X2NsaWNrX2NvdW50GAQgASgDIh0KBVBvaW50EgkKAXgYASABKAMSCQoB",
-            "eRgCIAEoAyLNAgoRQXBwbGljYXRpb25XaW5kb3cSJgoHbGVmdHRvcBgBIAEo",
-            "CzIVLnNzaWdtYWFwaS50eXBlLlBvaW50Eg4KBmhlaWdodBgCIAEoAxINCgV3",
-            "aWR0aBgDIAEoAxINCgV0aXRsZRgEIAEoCRIUCgxwcm9ncmFtX25hbWUYBSAB",
+            "b3VudBgHIAEoBSIiCglVc2VyU3RhdGUSCwoHV09SS0lORxAAEggKBEFXQVkQ",
+            "ASIlCg1LZXlib2FyZElucHV0EhQKDHN0cm9rZV9jb3VudBgBIAEoBSJyCgpN",
+            "b3VzZUlucHV0EhMKC2NsaWNrX2NvdW50GAEgASgFEhgKEGxlZnRfY2xpY2tf",
+            "Y291bnQYAiABKAUSGgoSbWlkZGxlX2NsaWNrX2NvdW50GAMgASgFEhkKEXJp",
+            "Z2h0X2NsaWNrX2NvdW50GAQgASgFIh0KBVBvaW50EgkKAXgYASABKAUSCQoB",
+            "eRgCIAEoBSLNAgoRQXBwbGljYXRpb25XaW5kb3cSJgoHbGVmdHRvcBgBIAEo",
+            "CzIVLnNzaWdtYWFwaS50eXBlLlBvaW50Eg4KBmhlaWdodBgCIAEoBRINCgV3",
+            "aWR0aBgDIAEoBRINCgV0aXRsZRgEIAEoCRIUCgxwcm9ncmFtX25hbWUYBSAB",
             "KAkSEwoLZGVzY3JpcHRpb24YBiABKAkSDwoHY29tcGFueRgHIAEoCRIVCg1p",
             "c19mb3JlZ3JvdW5kGAggASgIEkMKDHdpbmRvd19zdGF0ZRgJIAEoDjItLnNz",
             "aWdtYWFwaS50eXBlLkFwcGxpY2F0aW9uV2luZG93LldpbmRvd1N0YXRlEhEK",
-            "CXRpbWVzdGFtcBgKIAEoAyI3CgtXaW5kb3dTdGF0ZRIKCgZOT1JNQUwQABIN",
+            "CXRpbWVzdGFtcBgKIAEoBSI3CgtXaW5kb3dTdGF0ZRIKCgZOT1JNQUwQABIN",
             "CglNQVhJTUlaRUQQARINCglNSU5JTUlaRUQQAkI+WjxnaXRodWIuY29tL2th",
             "aXRvMi9zc2lnbWFhcGlnby90eXBlL3VzZXJhY3Rpdml0eTt1c2VyYWN0aXZp",
             "dHliBnByb3RvMw=="));
@@ -103,12 +103,12 @@ namespace Ssigmaapi.Type {
 
     /// <summary>Field number for the "start_timestamp" field.</summary>
     public const int StartTimestampFieldNumber = 1;
-    private long startTimestamp_;
+    private int startTimestamp_;
     /// <summary>
     /// milisecond
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long StartTimestamp {
+    public int StartTimestamp {
       get { return startTimestamp_; }
       set {
         startTimestamp_ = value;
@@ -117,12 +117,12 @@ namespace Ssigmaapi.Type {
 
     /// <summary>Field number for the "end_timestamp" field.</summary>
     public const int EndTimestampFieldNumber = 2;
-    private long endTimestamp_;
+    private int endTimestamp_;
     /// <summary>
     /// milisecond
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long EndTimestamp {
+    public int EndTimestamp {
       get { return endTimestamp_; }
       set {
         endTimestamp_ = value;
@@ -174,9 +174,9 @@ namespace Ssigmaapi.Type {
 
     /// <summary>Field number for the "switch_application_count" field.</summary>
     public const int SwitchApplicationCountFieldNumber = 7;
-    private long switchApplicationCount_;
+    private int switchApplicationCount_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long SwitchApplicationCount {
+    public int SwitchApplicationCount {
       get { return switchApplicationCount_; }
       set {
         switchApplicationCount_ = value;
@@ -209,13 +209,13 @@ namespace Ssigmaapi.Type {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (StartTimestamp != 0L) hash ^= StartTimestamp.GetHashCode();
-      if (EndTimestamp != 0L) hash ^= EndTimestamp.GetHashCode();
+      if (StartTimestamp != 0) hash ^= StartTimestamp.GetHashCode();
+      if (EndTimestamp != 0) hash ^= EndTimestamp.GetHashCode();
       if (keyboardInput_ != null) hash ^= KeyboardInput.GetHashCode();
       hash ^= windowList_.GetHashCode();
       if (UserState != 0) hash ^= UserState.GetHashCode();
       if (mouseInput_ != null) hash ^= MouseInput.GetHashCode();
-      if (SwitchApplicationCount != 0L) hash ^= SwitchApplicationCount.GetHashCode();
+      if (SwitchApplicationCount != 0) hash ^= SwitchApplicationCount.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -229,13 +229,13 @@ namespace Ssigmaapi.Type {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (StartTimestamp != 0L) {
+      if (StartTimestamp != 0) {
         output.WriteRawTag(8);
-        output.WriteInt64(StartTimestamp);
+        output.WriteInt32(StartTimestamp);
       }
-      if (EndTimestamp != 0L) {
+      if (EndTimestamp != 0) {
         output.WriteRawTag(16);
-        output.WriteInt64(EndTimestamp);
+        output.WriteInt32(EndTimestamp);
       }
       if (keyboardInput_ != null) {
         output.WriteRawTag(26);
@@ -250,9 +250,9 @@ namespace Ssigmaapi.Type {
         output.WriteRawTag(50);
         output.WriteMessage(MouseInput);
       }
-      if (SwitchApplicationCount != 0L) {
+      if (SwitchApplicationCount != 0) {
         output.WriteRawTag(56);
-        output.WriteInt64(SwitchApplicationCount);
+        output.WriteInt32(SwitchApplicationCount);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -262,11 +262,11 @@ namespace Ssigmaapi.Type {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (StartTimestamp != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(StartTimestamp);
+      if (StartTimestamp != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(StartTimestamp);
       }
-      if (EndTimestamp != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(EndTimestamp);
+      if (EndTimestamp != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(EndTimestamp);
       }
       if (keyboardInput_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(KeyboardInput);
@@ -278,8 +278,8 @@ namespace Ssigmaapi.Type {
       if (mouseInput_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(MouseInput);
       }
-      if (SwitchApplicationCount != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(SwitchApplicationCount);
+      if (SwitchApplicationCount != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(SwitchApplicationCount);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -292,10 +292,10 @@ namespace Ssigmaapi.Type {
       if (other == null) {
         return;
       }
-      if (other.StartTimestamp != 0L) {
+      if (other.StartTimestamp != 0) {
         StartTimestamp = other.StartTimestamp;
       }
-      if (other.EndTimestamp != 0L) {
+      if (other.EndTimestamp != 0) {
         EndTimestamp = other.EndTimestamp;
       }
       if (other.keyboardInput_ != null) {
@@ -314,7 +314,7 @@ namespace Ssigmaapi.Type {
         }
         MouseInput.MergeFrom(other.MouseInput);
       }
-      if (other.SwitchApplicationCount != 0L) {
+      if (other.SwitchApplicationCount != 0) {
         SwitchApplicationCount = other.SwitchApplicationCount;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -329,11 +329,11 @@ namespace Ssigmaapi.Type {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            StartTimestamp = input.ReadInt64();
+            StartTimestamp = input.ReadInt32();
             break;
           }
           case 16: {
-            EndTimestamp = input.ReadInt64();
+            EndTimestamp = input.ReadInt32();
             break;
           }
           case 26: {
@@ -359,7 +359,7 @@ namespace Ssigmaapi.Type {
             break;
           }
           case 56: {
-            SwitchApplicationCount = input.ReadInt64();
+            SwitchApplicationCount = input.ReadInt32();
             break;
           }
         }
@@ -416,9 +416,9 @@ namespace Ssigmaapi.Type {
 
     /// <summary>Field number for the "stroke_count" field.</summary>
     public const int StrokeCountFieldNumber = 1;
-    private long strokeCount_;
+    private int strokeCount_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long StrokeCount {
+    public int StrokeCount {
       get { return strokeCount_; }
       set {
         strokeCount_ = value;
@@ -445,7 +445,7 @@ namespace Ssigmaapi.Type {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (StrokeCount != 0L) hash ^= StrokeCount.GetHashCode();
+      if (StrokeCount != 0) hash ^= StrokeCount.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -459,9 +459,9 @@ namespace Ssigmaapi.Type {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (StrokeCount != 0L) {
+      if (StrokeCount != 0) {
         output.WriteRawTag(8);
-        output.WriteInt64(StrokeCount);
+        output.WriteInt32(StrokeCount);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -471,8 +471,8 @@ namespace Ssigmaapi.Type {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (StrokeCount != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(StrokeCount);
+      if (StrokeCount != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(StrokeCount);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -485,7 +485,7 @@ namespace Ssigmaapi.Type {
       if (other == null) {
         return;
       }
-      if (other.StrokeCount != 0L) {
+      if (other.StrokeCount != 0) {
         StrokeCount = other.StrokeCount;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -500,7 +500,7 @@ namespace Ssigmaapi.Type {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            StrokeCount = input.ReadInt64();
+            StrokeCount = input.ReadInt32();
             break;
           }
         }
@@ -548,9 +548,9 @@ namespace Ssigmaapi.Type {
 
     /// <summary>Field number for the "click_count" field.</summary>
     public const int ClickCountFieldNumber = 1;
-    private long clickCount_;
+    private int clickCount_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long ClickCount {
+    public int ClickCount {
       get { return clickCount_; }
       set {
         clickCount_ = value;
@@ -559,9 +559,9 @@ namespace Ssigmaapi.Type {
 
     /// <summary>Field number for the "left_click_count" field.</summary>
     public const int LeftClickCountFieldNumber = 2;
-    private long leftClickCount_;
+    private int leftClickCount_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long LeftClickCount {
+    public int LeftClickCount {
       get { return leftClickCount_; }
       set {
         leftClickCount_ = value;
@@ -570,9 +570,9 @@ namespace Ssigmaapi.Type {
 
     /// <summary>Field number for the "middle_click_count" field.</summary>
     public const int MiddleClickCountFieldNumber = 3;
-    private long middleClickCount_;
+    private int middleClickCount_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long MiddleClickCount {
+    public int MiddleClickCount {
       get { return middleClickCount_; }
       set {
         middleClickCount_ = value;
@@ -581,9 +581,9 @@ namespace Ssigmaapi.Type {
 
     /// <summary>Field number for the "right_click_count" field.</summary>
     public const int RightClickCountFieldNumber = 4;
-    private long rightClickCount_;
+    private int rightClickCount_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long RightClickCount {
+    public int RightClickCount {
       get { return rightClickCount_; }
       set {
         rightClickCount_ = value;
@@ -613,10 +613,10 @@ namespace Ssigmaapi.Type {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (ClickCount != 0L) hash ^= ClickCount.GetHashCode();
-      if (LeftClickCount != 0L) hash ^= LeftClickCount.GetHashCode();
-      if (MiddleClickCount != 0L) hash ^= MiddleClickCount.GetHashCode();
-      if (RightClickCount != 0L) hash ^= RightClickCount.GetHashCode();
+      if (ClickCount != 0) hash ^= ClickCount.GetHashCode();
+      if (LeftClickCount != 0) hash ^= LeftClickCount.GetHashCode();
+      if (MiddleClickCount != 0) hash ^= MiddleClickCount.GetHashCode();
+      if (RightClickCount != 0) hash ^= RightClickCount.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -630,21 +630,21 @@ namespace Ssigmaapi.Type {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (ClickCount != 0L) {
+      if (ClickCount != 0) {
         output.WriteRawTag(8);
-        output.WriteInt64(ClickCount);
+        output.WriteInt32(ClickCount);
       }
-      if (LeftClickCount != 0L) {
+      if (LeftClickCount != 0) {
         output.WriteRawTag(16);
-        output.WriteInt64(LeftClickCount);
+        output.WriteInt32(LeftClickCount);
       }
-      if (MiddleClickCount != 0L) {
+      if (MiddleClickCount != 0) {
         output.WriteRawTag(24);
-        output.WriteInt64(MiddleClickCount);
+        output.WriteInt32(MiddleClickCount);
       }
-      if (RightClickCount != 0L) {
+      if (RightClickCount != 0) {
         output.WriteRawTag(32);
-        output.WriteInt64(RightClickCount);
+        output.WriteInt32(RightClickCount);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -654,17 +654,17 @@ namespace Ssigmaapi.Type {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (ClickCount != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(ClickCount);
+      if (ClickCount != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ClickCount);
       }
-      if (LeftClickCount != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(LeftClickCount);
+      if (LeftClickCount != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(LeftClickCount);
       }
-      if (MiddleClickCount != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(MiddleClickCount);
+      if (MiddleClickCount != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(MiddleClickCount);
       }
-      if (RightClickCount != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(RightClickCount);
+      if (RightClickCount != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(RightClickCount);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -677,16 +677,16 @@ namespace Ssigmaapi.Type {
       if (other == null) {
         return;
       }
-      if (other.ClickCount != 0L) {
+      if (other.ClickCount != 0) {
         ClickCount = other.ClickCount;
       }
-      if (other.LeftClickCount != 0L) {
+      if (other.LeftClickCount != 0) {
         LeftClickCount = other.LeftClickCount;
       }
-      if (other.MiddleClickCount != 0L) {
+      if (other.MiddleClickCount != 0) {
         MiddleClickCount = other.MiddleClickCount;
       }
-      if (other.RightClickCount != 0L) {
+      if (other.RightClickCount != 0) {
         RightClickCount = other.RightClickCount;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -701,19 +701,19 @@ namespace Ssigmaapi.Type {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            ClickCount = input.ReadInt64();
+            ClickCount = input.ReadInt32();
             break;
           }
           case 16: {
-            LeftClickCount = input.ReadInt64();
+            LeftClickCount = input.ReadInt32();
             break;
           }
           case 24: {
-            MiddleClickCount = input.ReadInt64();
+            MiddleClickCount = input.ReadInt32();
             break;
           }
           case 32: {
-            RightClickCount = input.ReadInt64();
+            RightClickCount = input.ReadInt32();
             break;
           }
         }
@@ -759,9 +759,9 @@ namespace Ssigmaapi.Type {
 
     /// <summary>Field number for the "x" field.</summary>
     public const int XFieldNumber = 1;
-    private long x_;
+    private int x_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long X {
+    public int X {
       get { return x_; }
       set {
         x_ = value;
@@ -770,9 +770,9 @@ namespace Ssigmaapi.Type {
 
     /// <summary>Field number for the "y" field.</summary>
     public const int YFieldNumber = 2;
-    private long y_;
+    private int y_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long Y {
+    public int Y {
       get { return y_; }
       set {
         y_ = value;
@@ -800,8 +800,8 @@ namespace Ssigmaapi.Type {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (X != 0L) hash ^= X.GetHashCode();
-      if (Y != 0L) hash ^= Y.GetHashCode();
+      if (X != 0) hash ^= X.GetHashCode();
+      if (Y != 0) hash ^= Y.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -815,13 +815,13 @@ namespace Ssigmaapi.Type {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (X != 0L) {
+      if (X != 0) {
         output.WriteRawTag(8);
-        output.WriteInt64(X);
+        output.WriteInt32(X);
       }
-      if (Y != 0L) {
+      if (Y != 0) {
         output.WriteRawTag(16);
-        output.WriteInt64(Y);
+        output.WriteInt32(Y);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -831,11 +831,11 @@ namespace Ssigmaapi.Type {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (X != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(X);
+      if (X != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(X);
       }
-      if (Y != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Y);
+      if (Y != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Y);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -848,10 +848,10 @@ namespace Ssigmaapi.Type {
       if (other == null) {
         return;
       }
-      if (other.X != 0L) {
+      if (other.X != 0) {
         X = other.X;
       }
-      if (other.Y != 0L) {
+      if (other.Y != 0) {
         Y = other.Y;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -866,11 +866,11 @@ namespace Ssigmaapi.Type {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            X = input.ReadInt64();
+            X = input.ReadInt32();
             break;
           }
           case 16: {
-            Y = input.ReadInt64();
+            Y = input.ReadInt32();
             break;
           }
         }
@@ -935,9 +935,9 @@ namespace Ssigmaapi.Type {
 
     /// <summary>Field number for the "height" field.</summary>
     public const int HeightFieldNumber = 2;
-    private long height_;
+    private int height_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long Height {
+    public int Height {
       get { return height_; }
       set {
         height_ = value;
@@ -946,9 +946,9 @@ namespace Ssigmaapi.Type {
 
     /// <summary>Field number for the "width" field.</summary>
     public const int WidthFieldNumber = 3;
-    private long width_;
+    private int width_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long Width {
+    public int Width {
       get { return width_; }
       set {
         width_ = value;
@@ -1035,12 +1035,12 @@ namespace Ssigmaapi.Type {
 
     /// <summary>Field number for the "timestamp" field.</summary>
     public const int TimestampFieldNumber = 10;
-    private long timestamp_;
+    private int timestamp_;
     /// <summary>
     /// milisecond
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long Timestamp {
+    public int Timestamp {
       get { return timestamp_; }
       set {
         timestamp_ = value;
@@ -1077,15 +1077,15 @@ namespace Ssigmaapi.Type {
     public override int GetHashCode() {
       int hash = 1;
       if (lefttop_ != null) hash ^= Lefttop.GetHashCode();
-      if (Height != 0L) hash ^= Height.GetHashCode();
-      if (Width != 0L) hash ^= Width.GetHashCode();
+      if (Height != 0) hash ^= Height.GetHashCode();
+      if (Width != 0) hash ^= Width.GetHashCode();
       if (Title.Length != 0) hash ^= Title.GetHashCode();
       if (ProgramName.Length != 0) hash ^= ProgramName.GetHashCode();
       if (Description.Length != 0) hash ^= Description.GetHashCode();
       if (Company.Length != 0) hash ^= Company.GetHashCode();
       if (IsForeground != false) hash ^= IsForeground.GetHashCode();
       if (WindowState != 0) hash ^= WindowState.GetHashCode();
-      if (Timestamp != 0L) hash ^= Timestamp.GetHashCode();
+      if (Timestamp != 0) hash ^= Timestamp.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1103,13 +1103,13 @@ namespace Ssigmaapi.Type {
         output.WriteRawTag(10);
         output.WriteMessage(Lefttop);
       }
-      if (Height != 0L) {
+      if (Height != 0) {
         output.WriteRawTag(16);
-        output.WriteInt64(Height);
+        output.WriteInt32(Height);
       }
-      if (Width != 0L) {
+      if (Width != 0) {
         output.WriteRawTag(24);
-        output.WriteInt64(Width);
+        output.WriteInt32(Width);
       }
       if (Title.Length != 0) {
         output.WriteRawTag(34);
@@ -1135,9 +1135,9 @@ namespace Ssigmaapi.Type {
         output.WriteRawTag(72);
         output.WriteEnum((int) WindowState);
       }
-      if (Timestamp != 0L) {
+      if (Timestamp != 0) {
         output.WriteRawTag(80);
-        output.WriteInt64(Timestamp);
+        output.WriteInt32(Timestamp);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -1150,11 +1150,11 @@ namespace Ssigmaapi.Type {
       if (lefttop_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Lefttop);
       }
-      if (Height != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Height);
+      if (Height != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Height);
       }
-      if (Width != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Width);
+      if (Width != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Width);
       }
       if (Title.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Title);
@@ -1174,8 +1174,8 @@ namespace Ssigmaapi.Type {
       if (WindowState != 0) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) WindowState);
       }
-      if (Timestamp != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Timestamp);
+      if (Timestamp != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Timestamp);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1194,10 +1194,10 @@ namespace Ssigmaapi.Type {
         }
         Lefttop.MergeFrom(other.Lefttop);
       }
-      if (other.Height != 0L) {
+      if (other.Height != 0) {
         Height = other.Height;
       }
-      if (other.Width != 0L) {
+      if (other.Width != 0) {
         Width = other.Width;
       }
       if (other.Title.Length != 0) {
@@ -1218,7 +1218,7 @@ namespace Ssigmaapi.Type {
       if (other.WindowState != 0) {
         WindowState = other.WindowState;
       }
-      if (other.Timestamp != 0L) {
+      if (other.Timestamp != 0) {
         Timestamp = other.Timestamp;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -1240,11 +1240,11 @@ namespace Ssigmaapi.Type {
             break;
           }
           case 16: {
-            Height = input.ReadInt64();
+            Height = input.ReadInt32();
             break;
           }
           case 24: {
-            Width = input.ReadInt64();
+            Width = input.ReadInt32();
             break;
           }
           case 34: {
@@ -1272,7 +1272,7 @@ namespace Ssigmaapi.Type {
             break;
           }
           case 80: {
-            Timestamp = input.ReadInt64();
+            Timestamp = input.ReadInt32();
             break;
           }
         }
