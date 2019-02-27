@@ -25,28 +25,34 @@ namespace Ssigmaapi.Type {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiFzc2lnbWFhcGkvdHlwZS91c2VyYWN0aXZpdHkucHJvdG8SDnNzaWdtYWFw",
-            "aS50eXBlIo0CCgxVc2VyQWN0aXZpdHkSFwoPc3RhcnRfdGltZXN0YW1wGAEg",
+            "aS50eXBlIuACCgxVc2VyQWN0aXZpdHkSFwoPc3RhcnRfdGltZXN0YW1wGAEg",
             "ASgDEhUKDWVuZF90aW1lc3RhbXAYAiABKAMSNQoOa2V5Ym9hcmRfaW5wdXQY",
             "AyABKAsyHS5zc2lnbWFhcGkudHlwZS5LZXlib2FyZElucHV0EjYKC3dpbmRv",
             "d19saXN0GAQgAygLMiEuc3NpZ21hYXBpLnR5cGUuQXBwbGljYXRpb25XaW5k",
             "b3cSOgoKdXNlcl9zdGF0ZRgFIAEoDjImLnNzaWdtYWFwaS50eXBlLlVzZXJB",
-            "Y3Rpdml0eS5Vc2VyU3RhdGUiIgoJVXNlclN0YXRlEgsKB1dPUktJTkcQABII",
-            "CgRBV0FZEAEiJQoNS2V5Ym9hcmRJbnB1dBIUCgxzdHJva2VfY291bnQYASAB",
-            "KAMiHQoFUG9pbnQSCQoBeBgBIAEoAxIJCgF5GAIgASgDIs0CChFBcHBsaWNh",
-            "dGlvbldpbmRvdxImCgdsZWZ0dG9wGAEgASgLMhUuc3NpZ21hYXBpLnR5cGUu",
-            "UG9pbnQSDgoGaGVpZ2h0GAIgASgDEg0KBXdpZHRoGAMgASgDEg0KBXRpdGxl",
-            "GAQgASgJEhQKDHByb2dyYW1fbmFtZRgFIAEoCRITCgtkZXNjcmlwdGlvbhgG",
-            "IAEoCRIPCgdjb21wYW55GAcgASgJEhUKDWlzX2ZvcmVncm91bmQYCCABKAgS",
-            "QwoMd2luZG93X3N0YXRlGAkgASgOMi0uc3NpZ21hYXBpLnR5cGUuQXBwbGlj",
-            "YXRpb25XaW5kb3cuV2luZG93U3RhdGUSEQoJdGltZXN0YW1wGAogASgDIjcK",
-            "C1dpbmRvd1N0YXRlEgoKBk5PUk1BTBAAEg0KCU1BWElNSVpFRBABEg0KCU1J",
-            "TklNSVpFRBACQj5aPGdpdGh1Yi5jb20va2FpdG8yL3NzaWdtYWFwaWdvL3R5",
-            "cGUvdXNlcmFjdGl2aXR5O3VzZXJhY3Rpdml0eWIGcHJvdG8z"));
+            "Y3Rpdml0eS5Vc2VyU3RhdGUSLwoLbW91c2VfaW5wdXQYBiABKAsyGi5zc2ln",
+            "bWFhcGkudHlwZS5Nb3VzZUlucHV0EiAKGHN3aXRjaF9hcHBsaWNhdGlvbl9j",
+            "b3VudBgHIAEoAyIiCglVc2VyU3RhdGUSCwoHV09SS0lORxAAEggKBEFXQVkQ",
+            "ASIlCg1LZXlib2FyZElucHV0EhQKDHN0cm9rZV9jb3VudBgBIAEoAyJyCgpN",
+            "b3VzZUlucHV0EhMKC2NsaWNrX2NvdW50GAEgASgDEhgKEGxlZnRfY2xpY2tf",
+            "Y291bnQYAiABKAMSGgoSbWlkZGxlX2NsaWNrX2NvdW50GAMgASgDEhkKEXJp",
+            "Z2h0X2NsaWNrX2NvdW50GAQgASgDIh0KBVBvaW50EgkKAXgYASABKAMSCQoB",
+            "eRgCIAEoAyLNAgoRQXBwbGljYXRpb25XaW5kb3cSJgoHbGVmdHRvcBgBIAEo",
+            "CzIVLnNzaWdtYWFwaS50eXBlLlBvaW50Eg4KBmhlaWdodBgCIAEoAxINCgV3",
+            "aWR0aBgDIAEoAxINCgV0aXRsZRgEIAEoCRIUCgxwcm9ncmFtX25hbWUYBSAB",
+            "KAkSEwoLZGVzY3JpcHRpb24YBiABKAkSDwoHY29tcGFueRgHIAEoCRIVCg1p",
+            "c19mb3JlZ3JvdW5kGAggASgIEkMKDHdpbmRvd19zdGF0ZRgJIAEoDjItLnNz",
+            "aWdtYWFwaS50eXBlLkFwcGxpY2F0aW9uV2luZG93LldpbmRvd1N0YXRlEhEK",
+            "CXRpbWVzdGFtcBgKIAEoAyI3CgtXaW5kb3dTdGF0ZRIKCgZOT1JNQUwQABIN",
+            "CglNQVhJTUlaRUQQARINCglNSU5JTUlaRUQQAkI+WjxnaXRodWIuY29tL2th",
+            "aXRvMi9zc2lnbWFhcGlnby90eXBlL3VzZXJhY3Rpdml0eTt1c2VyYWN0aXZp",
+            "dHliBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Ssigmaapi.Type.UserActivity), global::Ssigmaapi.Type.UserActivity.Parser, new[]{ "StartTimestamp", "EndTimestamp", "KeyboardInput", "WindowList", "UserState" }, null, new[]{ typeof(global::Ssigmaapi.Type.UserActivity.Types.UserState) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Ssigmaapi.Type.UserActivity), global::Ssigmaapi.Type.UserActivity.Parser, new[]{ "StartTimestamp", "EndTimestamp", "KeyboardInput", "WindowList", "UserState", "MouseInput", "SwitchApplicationCount" }, null, new[]{ typeof(global::Ssigmaapi.Type.UserActivity.Types.UserState) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Ssigmaapi.Type.KeyboardInput), global::Ssigmaapi.Type.KeyboardInput.Parser, new[]{ "StrokeCount" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Ssigmaapi.Type.MouseInput), global::Ssigmaapi.Type.MouseInput.Parser, new[]{ "ClickCount", "LeftClickCount", "MiddleClickCount", "RightClickCount" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Ssigmaapi.Type.Point), global::Ssigmaapi.Type.Point.Parser, new[]{ "X", "Y" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Ssigmaapi.Type.ApplicationWindow), global::Ssigmaapi.Type.ApplicationWindow.Parser, new[]{ "Lefttop", "Height", "Width", "Title", "ProgramName", "Description", "Company", "IsForeground", "WindowState", "Timestamp" }, null, new[]{ typeof(global::Ssigmaapi.Type.ApplicationWindow.Types.WindowState) }, null)
           }));
@@ -85,6 +91,8 @@ namespace Ssigmaapi.Type {
       keyboardInput_ = other.keyboardInput_ != null ? other.keyboardInput_.Clone() : null;
       windowList_ = other.windowList_.Clone();
       userState_ = other.userState_;
+      mouseInput_ = other.mouseInput_ != null ? other.mouseInput_.Clone() : null;
+      switchApplicationCount_ = other.switchApplicationCount_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -153,6 +161,28 @@ namespace Ssigmaapi.Type {
       }
     }
 
+    /// <summary>Field number for the "mouse_input" field.</summary>
+    public const int MouseInputFieldNumber = 6;
+    private global::Ssigmaapi.Type.MouseInput mouseInput_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Ssigmaapi.Type.MouseInput MouseInput {
+      get { return mouseInput_; }
+      set {
+        mouseInput_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "switch_application_count" field.</summary>
+    public const int SwitchApplicationCountFieldNumber = 7;
+    private long switchApplicationCount_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long SwitchApplicationCount {
+      get { return switchApplicationCount_; }
+      set {
+        switchApplicationCount_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UserActivity);
@@ -171,6 +201,8 @@ namespace Ssigmaapi.Type {
       if (!object.Equals(KeyboardInput, other.KeyboardInput)) return false;
       if(!windowList_.Equals(other.windowList_)) return false;
       if (UserState != other.UserState) return false;
+      if (!object.Equals(MouseInput, other.MouseInput)) return false;
+      if (SwitchApplicationCount != other.SwitchApplicationCount) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -182,6 +214,8 @@ namespace Ssigmaapi.Type {
       if (keyboardInput_ != null) hash ^= KeyboardInput.GetHashCode();
       hash ^= windowList_.GetHashCode();
       if (UserState != 0) hash ^= UserState.GetHashCode();
+      if (mouseInput_ != null) hash ^= MouseInput.GetHashCode();
+      if (SwitchApplicationCount != 0L) hash ^= SwitchApplicationCount.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -212,6 +246,14 @@ namespace Ssigmaapi.Type {
         output.WriteRawTag(40);
         output.WriteEnum((int) UserState);
       }
+      if (mouseInput_ != null) {
+        output.WriteRawTag(50);
+        output.WriteMessage(MouseInput);
+      }
+      if (SwitchApplicationCount != 0L) {
+        output.WriteRawTag(56);
+        output.WriteInt64(SwitchApplicationCount);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -232,6 +274,12 @@ namespace Ssigmaapi.Type {
       size += windowList_.CalculateSize(_repeated_windowList_codec);
       if (UserState != 0) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) UserState);
+      }
+      if (mouseInput_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MouseInput);
+      }
+      if (SwitchApplicationCount != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(SwitchApplicationCount);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -259,6 +307,15 @@ namespace Ssigmaapi.Type {
       windowList_.Add(other.windowList_);
       if (other.UserState != 0) {
         UserState = other.UserState;
+      }
+      if (other.mouseInput_ != null) {
+        if (mouseInput_ == null) {
+          mouseInput_ = new global::Ssigmaapi.Type.MouseInput();
+        }
+        MouseInput.MergeFrom(other.MouseInput);
+      }
+      if (other.SwitchApplicationCount != 0L) {
+        SwitchApplicationCount = other.SwitchApplicationCount;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -292,6 +349,17 @@ namespace Ssigmaapi.Type {
           }
           case 40: {
             userState_ = (global::Ssigmaapi.Type.UserActivity.Types.UserState) input.ReadEnum();
+            break;
+          }
+          case 50: {
+            if (mouseInput_ == null) {
+              mouseInput_ = new global::Ssigmaapi.Type.MouseInput();
+            }
+            input.ReadMessage(mouseInput_);
+            break;
+          }
+          case 56: {
+            SwitchApplicationCount = input.ReadInt64();
             break;
           }
         }
@@ -441,6 +509,219 @@ namespace Ssigmaapi.Type {
 
   }
 
+  public sealed partial class MouseInput : pb::IMessage<MouseInput> {
+    private static readonly pb::MessageParser<MouseInput> _parser = new pb::MessageParser<MouseInput>(() => new MouseInput());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<MouseInput> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Ssigmaapi.Type.UseractivityReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MouseInput() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MouseInput(MouseInput other) : this() {
+      clickCount_ = other.clickCount_;
+      leftClickCount_ = other.leftClickCount_;
+      middleClickCount_ = other.middleClickCount_;
+      rightClickCount_ = other.rightClickCount_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MouseInput Clone() {
+      return new MouseInput(this);
+    }
+
+    /// <summary>Field number for the "click_count" field.</summary>
+    public const int ClickCountFieldNumber = 1;
+    private long clickCount_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long ClickCount {
+      get { return clickCount_; }
+      set {
+        clickCount_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "left_click_count" field.</summary>
+    public const int LeftClickCountFieldNumber = 2;
+    private long leftClickCount_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long LeftClickCount {
+      get { return leftClickCount_; }
+      set {
+        leftClickCount_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "middle_click_count" field.</summary>
+    public const int MiddleClickCountFieldNumber = 3;
+    private long middleClickCount_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long MiddleClickCount {
+      get { return middleClickCount_; }
+      set {
+        middleClickCount_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "right_click_count" field.</summary>
+    public const int RightClickCountFieldNumber = 4;
+    private long rightClickCount_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long RightClickCount {
+      get { return rightClickCount_; }
+      set {
+        rightClickCount_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as MouseInput);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(MouseInput other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClickCount != other.ClickCount) return false;
+      if (LeftClickCount != other.LeftClickCount) return false;
+      if (MiddleClickCount != other.MiddleClickCount) return false;
+      if (RightClickCount != other.RightClickCount) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClickCount != 0L) hash ^= ClickCount.GetHashCode();
+      if (LeftClickCount != 0L) hash ^= LeftClickCount.GetHashCode();
+      if (MiddleClickCount != 0L) hash ^= MiddleClickCount.GetHashCode();
+      if (RightClickCount != 0L) hash ^= RightClickCount.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClickCount != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(ClickCount);
+      }
+      if (LeftClickCount != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(LeftClickCount);
+      }
+      if (MiddleClickCount != 0L) {
+        output.WriteRawTag(24);
+        output.WriteInt64(MiddleClickCount);
+      }
+      if (RightClickCount != 0L) {
+        output.WriteRawTag(32);
+        output.WriteInt64(RightClickCount);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClickCount != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(ClickCount);
+      }
+      if (LeftClickCount != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(LeftClickCount);
+      }
+      if (MiddleClickCount != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(MiddleClickCount);
+      }
+      if (RightClickCount != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(RightClickCount);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(MouseInput other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClickCount != 0L) {
+        ClickCount = other.ClickCount;
+      }
+      if (other.LeftClickCount != 0L) {
+        LeftClickCount = other.LeftClickCount;
+      }
+      if (other.MiddleClickCount != 0L) {
+        MiddleClickCount = other.MiddleClickCount;
+      }
+      if (other.RightClickCount != 0L) {
+        RightClickCount = other.RightClickCount;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            ClickCount = input.ReadInt64();
+            break;
+          }
+          case 16: {
+            LeftClickCount = input.ReadInt64();
+            break;
+          }
+          case 24: {
+            MiddleClickCount = input.ReadInt64();
+            break;
+          }
+          case 32: {
+            RightClickCount = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   public sealed partial class Point : pb::IMessage<Point> {
     private static readonly pb::MessageParser<Point> _parser = new pb::MessageParser<Point>(() => new Point());
     private pb::UnknownFieldSet _unknownFields;
@@ -449,7 +730,7 @@ namespace Ssigmaapi.Type {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Ssigmaapi.Type.UseractivityReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Ssigmaapi.Type.UseractivityReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -606,7 +887,7 @@ namespace Ssigmaapi.Type {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Ssigmaapi.Type.UseractivityReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Ssigmaapi.Type.UseractivityReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
